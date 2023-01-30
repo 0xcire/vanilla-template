@@ -1,0 +1,37 @@
+:root {
+  --base-color: #2f394d;
+  --secondary-color: #eee1b3;
+  --tertiary-color: #330036;
+  --accent-color: #8b0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+  background: linear-gradient(45deg, var(--tertiary-color), var(--base-color));
+}
+
+#app {
+  height: 40%;
+  width: 30%;
+
+  display: grid;
+  place-items: center;
+
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 2px;
+
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px var(--tertiary-color);
+}
